@@ -1,12 +1,14 @@
 preserve_hierarchy: 1
 files:
-  - source: config/locales/en.yml
-    translation: config/locales/%two_letters_code%.yml
-    update_option: update_as_unapproved
-pull_request_title: Crowdin translations
+- source: /config/locales/en.yml
+  translation: /src/locales/%two_letters_code%.yml
+  translation_replace:
+    zh: zh-CN
+    ja: ja-JP
+  update_option: update_as_unapproved
+pull_request_title: 'fix: new Crowdin translations'
 pull_request_labels:
-  - ikigai
-commit_message: New translations %original_file_name% from Crowdin
-append_commit_message: 
+- Crowdin
+commit_message: 'fix: new %language% translations for %original_file_name% from Crowdin'
 pull_request_assignees:
-  - anushka123123456789
+- anushka123123456789

@@ -20,4 +20,5 @@
 uk:
   welcome:
     greeting: "Hello, welcome to our app!"
+    Major_Incidents: Major %{{Incidents}}
 

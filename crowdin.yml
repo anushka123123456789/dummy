@@ -1,4 +1,4 @@
-"preserve_hierarchy": true
+preserve_hierarchy: 1
 files:
   - source: config/locales/en.yml
     translation: config/locales/%two_letters_code%.yml
@@ -6,7 +6,7 @@ files:
 pull_request_title: Crowdin translations
 pull_request_labels:
   - ikigai
-commit_message: 'New translations %original_file_name% from Crowdin'
+commit_message: New translations %original_file_name% from Crowdin
 append_commit_message: 
 pull_request_assignees:
   - anushka123123456789
